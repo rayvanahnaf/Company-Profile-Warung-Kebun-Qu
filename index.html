@@ -28,15 +28,16 @@
             <nav class="flex-wrap lg:flex items-center py-14 xl:relative z-10" x-data="{navbarOpen:false}">
 
                 <div class="flex items-center justify-start mb-10 lg:mb-0">
-                    <img src="assets/image/Screenshot_2024-10-18_at_08.15.21-removebg-preview.png" alt="Logo img" class="w-32 md:w-48 lg:w-56"> <!-- Ukuran logo diperkecil -->
-                
+                    <img src="assets/image/Screenshot_2024-10-18_at_08.15.21-removebg-preview.png" alt="Logo img"
+                        class="w-32 md:w-48 lg:w-56">
+
                     <button
                         class="lg:hidden w-10 h-10 ml-auto flex items-center justify-center text-green-700 border border-green-700 rounded-md"
                         @click="navbarOpen = !navbarOpen">
                         <i data-feather="menu"></i>
                     </button>
                 </div>
-                
+
 
                 <ul class="lg:flex flex-col lg:flex-row lg:items-center lg:mx-auto lg:space-x-8 xl:space-x-16"
                     :class="{'hidden':!navbarOpen,'flex':navbarOpen}">
@@ -74,9 +75,11 @@
             <div class="flex items-center justify-center xl:justify-start">
 
                 <div class="mt-28 text-center xl:text-left">
-                    <h1 class="font-semibold text-4xl md:text-6xl lg:text-7xl text-gray-900 leading-normal mb-6"> Warung Kebun Qu</h1>
+                    <h1 class="font-semibold text-4xl md:text-6xl lg:text-7xl text-gray-900 leading-normal mb-6"> Warung
+                        Kebun Qu</h1>
 
-                    <p class="font-normal text-xl text-gray-400 leading-relaxed mb-12"> Nikmati Kopi dan Villa mu dengan bahagia</p>
+                    <p class="font-normal text-xl text-gray-400 leading-relaxed mb-12"> Nikmati Kopi dan Villa mu dengan
+                        bahagia</p>
 
                     <button
                         class="px-6 py-4 bg-green-700 text-white font-semibold text-lg rounded-xl hover:bg-green-900 transition ease-in-out duration-500">Contact
@@ -84,7 +87,8 @@
                 </div>
 
                 <div class="hidden xl:block z-0 right-0">
-                    <img src="assets/image/fried-rice.jpg" alt="Home img" style="float: right; width: 50%; height: 50%; z-index: 10;">
+                    <img src="assets/image/fried-rice.jpg" alt="Home img"
+                        style="float: right; width: 50%; height: 50%; z-index: 10;">
                 </div>
 
             </div>
@@ -102,62 +106,70 @@
             <div class="flex flex-col xl:flex-row items-center justify-between">
 
                 <div class="hidden xl:block w-1/2">
-                    <img src="assets/image/fried-rice.jpg" alt="Feature img" style="width: 80%; height: 80%; z-index: 10;">
+                    <img src="assets/image/gallery-4.png" alt="Feature img"
+                        style="width: 80%; height: 80%; z-index: 10;">
                 </div>
-            
+
                 <div class="w-full xl:w-1/2">
-            
-                    <h1 class="font-semibold text-gray-900 text-xl md:text-4xl text-center xl:text-left leading-normal mb-6">
-                        Choice of various types of <br> house
+
+                    <h1
+                        class="font-semibold text-gray-900 text-xl md:text-4xl text-center xl:text-left leading-normal mb-6">
+                        Pilih Villa Kebun Qu Untuk <br> Villa andalan mu
                     </h1>
-            
+
                     <p class="font-normal text-gray-400 text-md md:text-xl text-center xl:text-left mb-16">
-                        We provide a wide selection of home types for you and your <br> family and are free to choose a home model
+                        Kami menyediakan Villa untuk Anda dan
+                        keluarga anda
                     </p>
-            
+
                     <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
-                        <div class="px-8 h-20 mx-auto md:mx-0 bg-gray-200 rounded-lg flex items-center justify-center mb-5 md:mb-0">
+                        <div
+                            class="px-8 h-20 mx-auto md:mx-0 bg-gray-200 rounded-lg flex items-center justify-center mb-5 md:mb-0">
                             <i data-feather="check-circle" class=" text-green-900"></i>
                         </div>
-            
+
                         <div class="text-center md:text-left">
-                            <h4 class="font-semibold text-gray-900 text-2xl mb-2">Best Home Guarantee</h4>
+                            <h4 class="font-semibold text-gray-900 text-2xl mb-2">Kamar terbaik milik Villa Kebun Qu
+                            </h4>
                             <p class="font-normal text-gray-400 text-xl leading-relaxed">
-                                We guarantee the quality of your home you bought <br> from D’house
+                                Kami Menjamin Kenyamanan anda dan keluarga anda atas Fasilitas yang kami punya.
                             </p>
                         </div>
                     </div>
-            
+
                     <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
-                        <div class="px-8 h-20 mx-auto md:mx-0 bg-gray-200 rounded-lg flex items-center justify-center mb-5 md:mb-0">
+                        <div
+                            class="px-8 h-20 mx-auto md:mx-0 bg-gray-200 rounded-lg flex items-center justify-center mb-5 md:mb-0">
                             <i data-feather="lock" class=" text-green-900"></i>
                         </div>
-            
+
                         <div class="text-center md:text-left">
-                            <h4 class="font-semibold text-gray-900 text-2xl mb-2">Safe Transaction</h4>
+                            <h4 class="font-semibold text-gray-900 text-2xl mb-2">Aman Transaksi dan Privasi</h4>
                             <p class="font-normal text-gray-400 text-xl leading-relaxed">
-                                Your transactions will always be kept confidential <br> and will get discounted
+                                Transaksi dan Privasi anda kami jamin 100% dan anda akan mendapatkan Diskon.
                             </p>
                         </div>
                     </div>
-            
+
                     <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4">
-                        <div class="px-8 h-20 mx-auto md:mx-0 bg-gray-200 rounded-lg flex items-center justify-center mb-5 md:mb-0">
+                        <div
+                            class="px-8 h-20 mx-auto md:mx-0 bg-gray-200 rounded-lg flex items-center justify-center mb-5 md:mb-0">
                             <i data-feather="credit-card" class=" text-green-900"></i>
                         </div>
-            
+
                         <div class="text-center md:text-left">
-                            <h4 class="font-semibold text-gray-900 text-2xl mb-2">Low and Cost Home Taxes</h4>
+                            <h4 class="font-semibold text-gray-900 text-2xl mb-2">Harga Terjangkau dan view indah</h4>
                             <p class="font-normal text-gray-400 text-xl leading-relaxed">
-                                By buying a house from D’house, you will get a tax <br> discount
+                                Harga yang terjangkau dan pemandangan indah, cocok untuk anda dan keluarga anda
+                                menikmati Weekend yang hangat.
                             </p>
                         </div>
                     </div>
-            
+
                 </div>
-            
+
             </div>
-            
+
 
         </div> <!-- container.// -->
 
@@ -219,8 +231,10 @@
 
             <p class="font-normal text-gray-400 text-lg md:text-xl text-center uppercase mb-6">Testimonial</p>
 
-            <h1 class="font-semibold text-gray-900 text-2xl md:text-4xl text-center leading-normal mb-14">What People
-                Say <br> About Warung Kebun Qu</h1>
+            <h1 class="font-semibold text-gray-900 text-2xl md:text-4xl text-center leading-normal mb-14">Apa kata
+                mereka tentang
+                <br>Warung Kebun Qu
+            </h1>
 
             <div class="hidden xl:block xl:absolute top-0">
                 <img src="assets/image/testimoni-1.png" alt="Image">
@@ -244,8 +258,12 @@
                         <i data-feather="star" class="text-yellow-500"></i>
                     </div>
 
-                    <p class="font-normal text-sm lg:text-md text-gray-400 mx-8 my-8">I recommend anyone to buy house on
-                        <br> D’house. I received great customer service <br> from the specialists who helped me.</p>
+                    <p class="font-normal text-sm lg:text-md text-gray-400 mx-8 my-8">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse repudiandae ullam natus tempora
+                        quam debitis odio dicta asperiores quidem ea quae perferendis quisquam consequuntur, fugiat
+                        commodi illo quasi sint ut? Corrupti iure, quidem ratione, exercitationem aut deleniti eveniet
+                        sint, dolorem iste earum fuga voluptatem consequuntur ea quam perferendis omnis error!
+                    </p>
 
                     <h3 class="font-semibold text-gray-900 text-xl md:text-2xl lg:text-3xl mx-8 mb-8">Brooklyn Simmons
                     </h3>
@@ -262,8 +280,9 @@
                         <i data-feather="star" class="text-yellow-500"></i>
                     </div>
 
-                    <p class="font-normal text-sm lg:text-md text-gray-400 mx-8 my-8">D’house is the best property agent
-                        in the <br> world. I received great customer service <br> from the D’house agent</p>
+                    <p class="font-normal text-sm lg:text-md text-gray-400 mx-8 my-8"> Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Nemo corporis hic possimus adipisci voluptatum, minima recusandae
+                        fugiat delectus culpa natus, voluptas temporibus officiis quae doloremque.
 
                     <h3 class="font-semibold text-gray-900 text-xl md:text-2xl lg:text-3xl mx-8 mb-8">Ralph Edwards</h3>
                 </div>
@@ -283,12 +302,13 @@
             <div class="bg-green-800 flex flex-col lg:flex-row items-center justify-evenly py-14 rounded-3xl">
 
                 <div class="text-center lg:text-left mb-10 lg:mb-0">
-                    <h1 class="font-semibold text-white text-4xl md:text-5xl lg:text-7xl leading-normal mb-4">Talk to us
-                        <br> to discuss</h1>
+                    <h1 class="font-semibold text-white text-4xl md:text-5xl lg:text-7xl leading-normal mb-4">
+                        Kontak Kami Untuk <br>Memesan kamar
+                    </h1>
 
-                    <p class="font-normal text-white text-md md:text-xl">Need more time to discuss? Won’t worry, we are
-                        <br> ready to help you. You can fill in the column on the <br> right to book a meeting with us.
-                        Totally free.</p>
+                    <p class="font-normal text-white text-md md:text-xl">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Ex nostrum eveniet ducimus error itaque dolores!
+                    </p>
                 </div>
 
                 <div class="hidden xl:block xl:absolute right-0">
@@ -297,7 +317,7 @@
 
                 <div class="hidden md:block bg-white xl:relative px-6 py-3 rounded-3xl">
                     <div class="py-3">
-                        <h3 class="font-semibold text-gray-900 text-3xl">Book a meeting</h3>
+                        <h3 class="font-semibold text-gray-900 text-3xl">Booking Kamar</h3>
                     </div>
 
                     <div class="py-3">
@@ -349,10 +369,12 @@
             <div class="flex flex-col lg:flex-row justify-between">
                 <div class="text-center lg:text-left mb-10 lg:mb-0">
                     <div class="flex justify-center lg:justify-start mb-5">
-                        <img src="assets/image/Screenshot_2024-10-18_at_08.15.21-removebg-preview.png" alt="Logo img" class="w-32 md:w-48 lg:w-56">
+                        <img src="assets/image/Screenshot_2024-10-18_at_08.15.21-removebg-preview.png" alt="Logo img"
+                            class="w-32 md:w-48 lg:w-56">
                     </div>
 
-                    <p class="font-light text-gray-400 text-xl mb-10">Temukan Villa nyaman dan Kopi terbaik di <br> Warung Kebun Qu</p>
+                    <p class="font-light text-gray-400 text-xl mb-10">Temukan Villa nyaman dan Kopi terbaik di <br>
+                        Warung Kebun Qu</p>
 
                     <div class="flex items-center justify-center lg:justify-start space-x-5">
                         <a href="#"
